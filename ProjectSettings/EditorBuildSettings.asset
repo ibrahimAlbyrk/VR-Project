@@ -4,15 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/PrototypeScene.unity
+    guid: 17c436bc8a2fd824cbae5418c2151096
+  - enabled: 1
+    path: Assets/VR Beginner/Scenes/AndreTest.unity
+    guid: 404fb9f7b09bf9d41b2739cbedd0af34
+  - enabled: 1
+    path: Assets/VR Beginner/Scenes/Final/EscapeRoom.unity
+    guid: 0f290611f0f8be4419d06b71aba4e36a
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 398d945149746a94899cafbfeddf8c9f,
       type: 2}
-    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba,
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a422e2a2e6c83184e9b23d6413331359,
       type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1a4c68ca72a83449f938d669337cb305,
-      type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: e56a588a620064e468879dbd78aa9de8,
-      type: 2}
-    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 3c957bf62698f0d48aa11cc519cf249c,
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 5e0c58c091d89a445b6e56d3d71a3200,
       type: 2}
